@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/button.css" />
+    <link rel="stylesheet" href="../../styles/card.css" />
+    <link rel="stylesheet" href="../../styles/displays.css" />
+    <link rel="stylesheet" href="../../styles/header.css" />
+    <link rel="stylesheet" href="../../styles/input.css" />
+    <link rel="stylesheet" href="../../styles/positions.css" />
+    <link rel="stylesheet" href="../../styles/texts.css" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Open Music</title>
   </head>
   <body>
-    <main></main>
+    <header class="header container flex al-center jus-between">
+      <h1 class="title-1 logo">open music</h1>
+      <div class="flex">
+        <input type="checkbox" class="button-dark-mode" id="button_dark_mode"></input>
+        <label for="button_dark_mode" class="label-dark-mode flex al-center jus-center">
+          <img id="dark_mode_icon" src="../../assets/img/moon.png">
+        </label>
+      </div>
+    </header>
+    <main class="container">
+      <h2 class="title-2">Gênero musical</h2>
+      <ul id="category_list" class="flex jus-start al-center wrap category-list"></ul>
+      <div class="input-price flex flex-col" id="input_price">
+        <div class="flex al-center jus-between">
+          <p class="title-2">Definir preço</p>
+          <p class="text-1" id="input_value">Até R$</p>
+        </div>
+        <input id="input-range-value" class="price-range" type="range" min="0" max="1000">
+      </div>
+      <div class="albuns" id="albuns">
+        <p class="title-2">Albuns encontrados</p>
+        <ul id="card_list" class="card-list flex wrap jus-between"></ul>
+      </div>
+    </main>
     <script src="../../scripts/theme.js"></script>
-    <script src="productsData.js"></script>
-    <script src="index.js"></script>
+    <script src="./productsData.js"></script>
+    <script src="./index.js"></script>
+    <script src="../../scripts/filters.js"></script>
   </body>
 </html>

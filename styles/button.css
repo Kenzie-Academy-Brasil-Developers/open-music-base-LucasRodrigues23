@@ -1,0 +1,16 @@
+.bt-category {
+    padding: 8px 8px;
+    border: 1px solid var(--color-grey-8);
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+    color: var(--color-grey-2);
+}
+
+.bt-buy {
+    width: 75px;
+    padding: 16px 0;
+    border: none;
+    background-color: var(--color-grey-8);
+    cursor: pointer;
+}

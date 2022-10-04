@@ -1,0 +1,14 @@
+.button-dark-mode{
+    display: none;
+}
+
+.button-dark-mode + label {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border: 2px solid var(--color-grey-8);
+    border-radius: 5px;
+    background-color: var(--color-grey-8);
+    background-repeat: no-repeat;
+    background-position: center;
+}

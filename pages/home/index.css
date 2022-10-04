@@ -1,1 +1,23 @@
 /* Desenvolva sua estilização aqui ... */
+.category-list {
+    list-style: none;
+    margin-top: 24px;
+    gap: 32px;
+}
+
+.input-price {
+    margin-top: 60px;
+    gap: 32px;
+}
+
+.albuns{
+    margin-top: 68px;
+}
+
+.card-list {
+    gap: 38px 0;
+}
+
+.logo {
+    color: var(--color-grey-1);
+}

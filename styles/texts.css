@@ -1,0 +1,38 @@
+.title-1{
+    font-size:  var(--font-1);
+    font-weight: 600;
+}
+
+.title-2{
+    font-size: var(--font-2);
+    font-weight: 600;
+    color: var(--color-grey-1);
+}
+.title-2-bold{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.title-3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.text-1{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-grey-2);
+}
+
+.text-2{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-grey-2);
+}
+
+.text-3{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-grey-2);
+}
